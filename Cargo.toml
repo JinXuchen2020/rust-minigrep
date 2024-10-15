@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+lazy_static="1.4.0"
+thiserror="1.0.24"
+futures = "0.3.17"
+async-std = { version = "1.10.0", features = ["attributes"] }
